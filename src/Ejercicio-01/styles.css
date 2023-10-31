@@ -1,0 +1,11 @@
+p {
+    background-color:lightcoral;
+}
+
+.destacado {
+    border: 2px solid black;
+}
+
+#parrafo-grande {
+    font-size: 30px;
+}
