@@ -1,0 +1,23 @@
+.box {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border: 3px solid blue;
+    margin-bottom: 30px;
+}
+
+.box p:nth-child(1) {
+    font-size: 1em;
+}
+
+.box p:nth-child(2) {
+    font-size: 2rem;
+}
+
+.box p:nth-child(3) {
+    font-size: 7vw;
+}
+
+.box p:nth-child(4) {
+    font-size: 7vh;
+}
