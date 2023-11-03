@@ -1,0 +1,121 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+header {
+    background-color: darkolivegreen;
+    color:lightgrey;
+    padding: 10px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+section {
+    padding: 20px;
+}
+
+#quiensoy {
+    background-color: lightgrey;
+    padding: 50px
+}
+
+#portafolio {
+    background-color: lightslategrey;
+}
+
+div img {
+    width: 30%;
+    height: auto;
+}
+
+#contacto {
+    background-color: lightgrey;
+}
+
+form input {
+  display: block;
+  width: 340px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+}
+
+form textarea {
+  display: block;
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 30px;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+}
+form button {
+    background-color: darkolivegreen;
+    color: white;
+    margin-bottom: 10px;
+    width: 90px;
+    padding: 10px;
+    border-color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: lightgrey
+}
+
+footer {
+    background-color: darkolivegreen;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    header {
+        padding: 10px;
+    }
+    
+    section {
+        padding: 30px 10px;
+    }
+    
+    form input,
+    form textarea,
+    form button {
+        margin-bottom: 10px;
+    }
+}
